@@ -22,14 +22,14 @@ This project implements a **Chord Protocol Simulator** using the **Actor Model**
    dotnet add package Akka.FSharp
     ```
 5. Compile the program:
-  ```sh
-  dotnet build
-  ```
-If the build is successful, the terminal displays a "Build succeeded" message.  
+    ```sh
+    dotnet build
+    ```
+    If the build is successful, the terminal displays a "Build succeeded" message.  
 6. Run the program with the following command:
-  ```sh
-  dotnet run <number_of_nodes> <number_of_requests>
-  ```
+    ```sh
+    dotnet run <number_of_nodes> <number_of_requests>
+    ```
 Both number_of_nodes and number_of_requests should be integers.  
 
 ## Functionality
