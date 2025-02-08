@@ -3,12 +3,6 @@
 ## Overview
 This project implements a **Chord Protocol Simulator** using the **Actor Model** with the **AKKA module** in **F#**. It simulates a peer-to-peer distributed hash table (DHT) system and evaluates the average number of hops for lookup requests.
 
-## Team Members
-- Rishika Reddy Alugubelli (r.alugubelli@ufl.edu)
-- Aashritha Reddy Donapati (a.donapati@ufl.edu)
-- Vivek Reddy Gangula (gangula.v@ufl.edu)
-- Dheekshita Neella (d.neella@ufl.edu)
-
 ## How to Run the Program?
 
 ### **Prerequisites**
@@ -28,14 +22,14 @@ This project implements a **Chord Protocol Simulator** using the **Actor Model**
    dotnet add package Akka.FSharp
     ```
 5. Compile the program:
-```sh
-dotnet build
-```
+  ```sh
+  dotnet build
+  ```
 If the build is successful, the terminal displays a "Build succeeded" message.  
 6. Run the program with the following command:
-```sh
-dotnet run <number_of_nodes> <number_of_requests>
-```
+  ```sh
+  dotnet run <number_of_nodes> <number_of_requests>
+  ```
 Both number_of_nodes and number_of_requests should be integers.  
 
 ## Functionality
